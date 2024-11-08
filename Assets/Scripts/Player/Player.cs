@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public static Player Instance;
     public PlayerMovement playerMovement;
     public Animator animator;
-
+    public bool hasWeapon;
     void Awake()
     {
          // Referensi : https://gamedevbeginner.com/singletons-in-unity-the-right-way/
@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        hasWeapon = false;
         playerMovement = GetComponent<PlayerMovement>();
         GameObject engineEffect = GameObject.Find("EngineEffect");
         if (engineEffect != null){
