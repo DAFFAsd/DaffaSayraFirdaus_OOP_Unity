@@ -23,5 +23,8 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(GameObject.Find("Main Camera"));
         DontDestroyOnLoad(GameObject.Find("Player"));
+        DontDestroyOnLoad(GameObject.Find("Bullet"));
+        DontDestroyOnLoad(GameObject.Find("Bullet(Clone)"));
+        DontDestroyOnLoad(GameObject.Find("Bullet2(Clone)"));
     }
 }

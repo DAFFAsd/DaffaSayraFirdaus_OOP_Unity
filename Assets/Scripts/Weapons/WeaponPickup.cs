@@ -27,7 +27,16 @@ public class WeaponPickup : MonoBehaviour
         {
             Player.Instance.hasWeapon = true;
             Debug.Log("Objek Player Memasuki trigger");
-            weapon.transform.position = other.transform.position;
+            if (weaponHolder.name == "Weapon3")
+            {
+                weapon.transform.position = new Vector3(other.transform.position.x,
+                                                      other.transform.position.y - 0.2f,
+                                                      other.transform.position.z);
+            }
+            else
+            {
+                weapon.transform.position = other.transform.position;
+            }
             weapon.transform.SetParent(other.transform);
             weapon.gameObject.SetActive(true);
             TurnVisual(true, weapon);
