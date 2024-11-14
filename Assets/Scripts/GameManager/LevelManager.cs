@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
         transitionAnim.SetTrigger("End");
         yield return new WaitForSeconds(1);
         SceneManager.LoadSceneAsync(sceneName);
-        Player.Instance.transform.position = new(0, 0);
+        Player.Instance.transform.position = new(0, -Screen.height);
         transitionAnim.SetTrigger("Start");
     }
 
