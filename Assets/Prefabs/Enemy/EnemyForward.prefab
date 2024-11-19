@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3595515652962503675}
   m_Layer: 0
   m_Name: EnemyForward
-  m_TagString: EnemyForward
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6bbb73ba8dda74f919d44c68f5eb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 1
 --- !u!114 &3391901883397046438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53e6aae901c91743a7f554c0ab59e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 1
 --- !u!114 &5916968726564346270
 MonoBehaviour:
   m_ObjectHideFlags: 0

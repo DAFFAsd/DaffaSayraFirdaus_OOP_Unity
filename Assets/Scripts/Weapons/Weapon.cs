@@ -29,12 +29,13 @@ public class Weapon : MonoBehaviour
     private void Awake()
     {
       objectPool = new ObjectPool<Bullet>(CreateBullet,OnGetFromPool,OnReleaseToPool,OnDestroyPooledObject, collectionCheck,defaultCapacity,maxSize);
+      DontDestroyOnLoad(gameObject);
     }
 
     private Bullet CreateBullet()
     {
         Bullet bulletInstance = Instantiate(bullet);
-        bulletInstance.ObjectPool = objectPool;
+        bulletInstance.objectPool = objectPool;
         return bulletInstance;
     }
     private void OnGetFromPool(Bullet objectPool)

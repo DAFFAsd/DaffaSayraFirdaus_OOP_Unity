@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 6932467300645889004}
   m_Layer: 0
   m_Name: EnemyTargeting
-  m_TagString: EnemyTargeting
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6bbb73ba8dda74f919d44c68f5eb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 2
 --- !u!114 &8535677453902883388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bea7e4ccaad61a4889df2565ebfc378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 2
 --- !u!61 &7368134168316062766
 BoxCollider2D:
   m_ObjectHideFlags: 0

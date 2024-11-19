@@ -22,4 +22,12 @@ public class EnemyForward : Enemy
     {
         transform.Translate(Vector3.down * verticalSpeed * Time.deltaTime);
     }
+    private void OnBecameInvisible()
+    {
+        transform.position = new Vector3(
+            Random.Range(Camera.main.ViewportToWorldPoint(Vector3.zero).x + 1f, Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - 1f),
+            maxY,
+            transform.position.z
+        );
+    }
 }

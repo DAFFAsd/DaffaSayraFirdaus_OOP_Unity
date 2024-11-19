@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 830421272501038336}
   m_Layer: 0
   m_Name: EnemyBoss
-  m_TagString: EnemyBoss
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,6 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6bbb73ba8dda74f919d44c68f5eb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 3
 --- !u!114 &4433151213184896780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fef7e7a6d16bff4c8a4de3a5e2edef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
+  level: 3
   bullet: {fileID: 7922550395068367870, guid: 6aa9ada78daee7d42bb4b401b997576f, type: 3}
   bulletSpawnPoint: {fileID: 5841102442205959632}
 --- !u!61 &518567159947113996

@@ -30,7 +30,7 @@ public class EnemyBoss : Enemy
     private Bullet CreateBullet()
     {
         Bullet bulletInstance = Instantiate(bullet);
-        bulletInstance.ObjectPool = objectPool;
+        bulletInstance.objectPool = objectPool;
         return bulletInstance;
     }
     private void OnGetFromPool(Bullet objectPool)

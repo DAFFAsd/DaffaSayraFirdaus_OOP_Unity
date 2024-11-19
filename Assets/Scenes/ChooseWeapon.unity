@@ -1957,10 +1957,14 @@ PrefabInstance:
       objectReference: {fileID: 526440635}
     - target: {fileID: 2197449904444713318, guid: ad28179a26406f745b210d0615124f6b, type: 3}
       propertyPath: shootIntervalInSeconds
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7808164355469052475, guid: ad28179a26406f745b210d0615124f6b, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838583898970833665, guid: ad28179a26406f745b210d0615124f6b, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838583898970833665, guid: ad28179a26406f745b210d0615124f6b, type: 3}

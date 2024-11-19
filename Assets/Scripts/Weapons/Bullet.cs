@@ -9,8 +9,7 @@ public class Bullet : MonoBehaviour
     public float bulletSpeed = 20;
     public int damage = 10;
     private Rigidbody2D rb;
-    private IObjectPool<Bullet> objectPool;
-    public IObjectPool<Bullet> ObjectPool { set => objectPool = value; }
+    public IObjectPool<Bullet> objectPool;
     public void Deactivate()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();

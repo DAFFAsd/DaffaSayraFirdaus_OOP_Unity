@@ -9,6 +9,7 @@ TagManager:
   - EnemyForward
   - EnemyTargeting
   - Bullet
+  - CombatManager
   layers:
   - Default
   - TransparentFX
