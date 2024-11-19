@@ -12,7 +12,7 @@ public class CombatManager : MonoBehaviour
 
     private void Start()
     {
-
+        waveNumber = 0;
     }
 
     private void Update()
