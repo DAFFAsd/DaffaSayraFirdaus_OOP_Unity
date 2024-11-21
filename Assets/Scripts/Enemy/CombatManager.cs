@@ -36,7 +36,6 @@ public class CombatManager : MonoBehaviour
         foreach (EnemySpawner spawner in enemySpawners)
         {
             spawner.StartSpawning();
-            spawner.StopSpawning();
         }
     }
 

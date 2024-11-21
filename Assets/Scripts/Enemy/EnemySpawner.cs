@@ -45,14 +45,12 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator SpawnEnemies()
     {
-        while (isSpawning)
+        for (int i = 0; i < spawnCount; i++)
         {
-            for (int i = 0; i < spawnCount; i++)
-            {
-                SpawnEnemy();
-            }
+            SpawnEnemy();
             yield return new WaitForSeconds(spawnInterval);
         }
+        StopSpawning();
     }
 
     private void SpawnEnemy()

@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - EnemyBoss
-  - EnemyHorizontal
-  - EnemyForward
-  - EnemyTargeting
   - Bullet
   - CombatManager
+  - Enemy
   layers:
   - Default
   - TransparentFX

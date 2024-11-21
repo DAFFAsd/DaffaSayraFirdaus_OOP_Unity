@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 286000290}
   m_Layer: 0
   m_Name: EnemyForwardSpawner
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,6 +407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6bbb73ba8dda74f919d44c68f5eb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combatmanager: {fileID: 0}
+  spawner: {fileID: 0}
   level: 0
 --- !u!1 &1287934355
 GameObject:
@@ -420,7 +422,7 @@ GameObject:
   - component: {fileID: 1287934358}
   m_Layer: 0
   m_Name: EnemyHorizontalSpawner
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -474,7 +476,7 @@ GameObject:
   - component: {fileID: 1514193773}
   m_Layer: 0
   m_Name: EnemyTargetSpawner
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -528,7 +530,7 @@ GameObject:
   - component: {fileID: 1547586717}
   m_Layer: 0
   m_Name: EnemyBossSpawner
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,7 +584,7 @@ GameObject:
   - component: {fileID: 1623453036}
   m_Layer: 0
   m_Name: CombatManager
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
