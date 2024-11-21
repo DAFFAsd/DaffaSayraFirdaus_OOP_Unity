@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3025868983082415975}
   - component: {fileID: 5298284983228305625}
   - component: {fileID: 3595515652962503675}
+  - component: {fileID: -2543301698123438806}
   m_Layer: 0
   m_Name: EnemyForward
   m_TagString: Enemy
@@ -233,3 +234,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthComponent: {fileID: 5916968726564346270}
+--- !u!114 &-2543301698123438806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332907408310841965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f0ec8a8c714a446a3d97833f7537af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkingCount: 7
+  blinkInterval: 0.1
+  blinkMaterial: {fileID: 2100000, guid: 77465971212fdf446bd001405fbd4310, type: 2}
+  isInvincible: 0

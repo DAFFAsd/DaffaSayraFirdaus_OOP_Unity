@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1673020822365586586}
   - component: {fileID: 5164144334850074942}
   - component: {fileID: 5663238107881867857}
+  - component: {fileID: 6367232281541628444}
   m_Layer: 0
   m_Name: EnemyHorizontal
   m_TagString: Enemy
@@ -233,3 +234,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthComponent: {fileID: 1673020822365586586}
+--- !u!114 &6367232281541628444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2283267923900884655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f0ec8a8c714a446a3d97833f7537af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blinkingCount: 7
+  blinkInterval: 0.1
+  blinkMaterial: {fileID: 2100000, guid: 77465971212fdf446bd001405fbd4310, type: 2}
+  isInvincible: 0
