@@ -5,7 +5,7 @@ NPM: 2306267151
 ```
 Progress sekarang/terakhir (User Interface) :
 
-https://github.com/user-attachments/assets/00099d82-13e3-4701-bd44-da2aad1e6f26
+https://github.com/user-attachments/assets/3761cce3-22a9-419f-b04d-ad212686597c
 
 
 
