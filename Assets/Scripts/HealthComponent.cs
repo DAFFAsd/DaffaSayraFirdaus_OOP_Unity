@@ -6,7 +6,12 @@ public class HealthComponent : MonoBehaviour
     [SerializeField] private int maxHealth;
     private int health;
 
-    public int Health => health;
+    public int Health
+    {
+        get => health;
+        set => health = value;
+    }
+
 
     private void Start()
     {

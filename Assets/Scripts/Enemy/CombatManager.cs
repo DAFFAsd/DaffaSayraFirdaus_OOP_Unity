@@ -19,6 +19,7 @@ public class CombatManager : MonoBehaviour
     private TextMeshProUGUI healthText;
     private TextMeshProUGUI titleText;
     private TextMeshProUGUI countdownText;
+    private TextMeshProUGUI gameOverText;
 
 
     private void Start()
@@ -38,6 +39,7 @@ public class CombatManager : MonoBehaviour
                 healthText = levelCanvas.transform.Find("Health")?.GetComponent<TextMeshProUGUI>();
                 titleText = levelCanvas.transform.Find("Title")?.GetComponent<TextMeshProUGUI>();
                 countdownText = levelCanvas.transform.Find("Countdown")?.GetComponent<TextMeshProUGUI>();
+                countdownText = levelCanvas.transform.Find("Gameover")?.GetComponent<TextMeshProUGUI>();
             }
         }
         UpdateUI();
@@ -87,12 +89,20 @@ public class CombatManager : MonoBehaviour
         if (countdownText != null)
         {
             if (timer != 0)
-                countdownText.text = "Next Wave Starts In:\n" + (5-timer);
+                countdownText.text = "Next Wave Starts In:\n" + (5 - timer);
             else
                 countdownText.text = null;
         }
 
         if (healthText != null)
-            healthText.text = "Health: " + playership.GetComponent<HealthComponent>().Health;
+        {
+            if (playership != null)
+                healthText.text = "Health: " + playership.GetComponent<HealthComponent>().Health;
+            else
+            {
+                healthText.text = "Health: " + 0;
+                gameOverText.text = "Game Over";
+            }
+        }
     }
 }
