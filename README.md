@@ -1,10 +1,11 @@
-# Case Study OOP - 9 (10/14/2024)
+# Case Study OOP - Modul 11 (26/11/2024)
 ```
 Nama: Daffa Sayra Firdaus
 NPM: 2306267151
 ```
-Progress sekarang/terakhir :
+Progress sekarang/terakhir (User Interface) :
+
+https://github.com/user-attachments/assets/00099d82-13e3-4701-bd44-da2aad1e6f26
 
 
-https://github.com/user-attachments/assets/d4aadd14-7a8d-4c61-86a4-52e9d3514ac3
 
