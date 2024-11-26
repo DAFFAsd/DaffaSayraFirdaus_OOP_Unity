@@ -39,7 +39,7 @@ public class CombatManager : MonoBehaviour
                 healthText = levelCanvas.transform.Find("Health")?.GetComponent<TextMeshProUGUI>();
                 titleText = levelCanvas.transform.Find("Title")?.GetComponent<TextMeshProUGUI>();
                 countdownText = levelCanvas.transform.Find("Countdown")?.GetComponent<TextMeshProUGUI>();
-                countdownText = levelCanvas.transform.Find("Gameover")?.GetComponent<TextMeshProUGUI>();
+                gameOverText = levelCanvas.transform.Find("Gameover")?.GetComponent<TextMeshProUGUI>();
             }
         }
         UpdateUI();
