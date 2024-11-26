@@ -75,5 +75,6 @@ public class EnemySpawner : MonoBehaviour
             spawnCount = defaultSpawnCount + (spawnCountMultiplier * multiplierIncreaseCount);
             multiplierIncreaseCount++;
         }
+        combatManager.points += spawnedEnemy.level;
     }
 }
